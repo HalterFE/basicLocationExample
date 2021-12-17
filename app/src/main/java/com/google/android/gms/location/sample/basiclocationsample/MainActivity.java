@@ -82,11 +82,11 @@ public class MainActivity extends AppCompatActivity {
     public void onStart() {
         super.onStart();
 
-        if (!checkPermissions()) {
+        //if (!checkPermissions()) {
             //requestPermissions();
-        } else {
+       // } else {
             getLastLocation();
-        }
+        //}
     }
 
     /**
